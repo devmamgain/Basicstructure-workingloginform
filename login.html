@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section class="forms">
+        <h1>Registration Form</h1>
+       <div class="main">
+        <div class="names">
+        <label for="name">Name</label>
+        <input type="text" id="nameimp" class="name" placeholder="Your name...">
+        <span id="notname" class="fillit">Please Fill it.</span>
+    </div>
+    <div class="emails">
+        <label for="email">Email</label>
+        <input type="email" id="emailimp" class="email" placeholder="Enter your email">
+        <span id="notemail" class="fillit">Please Fill it.</span>
+        <span id="notmatchemail" class="fillit">it should contain @ and the email should exist.</span>
+
+    </div>
+    <div class="passwords">
+        <label for="password">Password</label>
+        <input type="password" id="passwordimp" class="password" placeholder="Enter your password">
+        <span id="notpassword" class="fillit">Please Fill it.</span>
+        <span id="notmatchpassword" class="fillit">password should contain 1 special character
+            1 capital character 
+            and should be between 6 to 16 chracters
+        </span>
+    </div>
+    <button class="submit">Submit</button>
+    </section>
+</body>
+<script src="login.js"></script>
+</html>
